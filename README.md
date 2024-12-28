@@ -10,6 +10,10 @@ This is a full-stack real estate application built with **MongoDB**, **Express.j
 - **Access Data Dynamically:** The frontend communicates with the backend API to fetch and display data.
 
 ---
+## **Screenshot**
+![Alt Text](login.png)
+![Alt Text](register.png)
+
 
 ## 🚀 **Tech Stack**
 
@@ -48,7 +52,6 @@ This is a full-stack real estate application built with **MongoDB**, **Express.j
 │   ├── controllers/
 │   ├── models/
 │   ├── routes/
-│   ├── middleware/
 │   ├── server.js
 │
 ├── frontend/
@@ -56,6 +59,7 @@ This is a full-stack real estate application built with **MongoDB**, **Express.j
 │   │   ├── components/
 │   │   ├── services/
 │   │   ├── App.js
+│   │   ├── index.css
 │   │   ├── index.js
 │   ├── public/
 │   ├── .env
