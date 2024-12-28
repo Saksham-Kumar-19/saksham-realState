@@ -11,7 +11,7 @@ function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await api.post('/auth/login', { email, password });
+      const response = await api.post('/login', { email, password });
       localStorage.setItem('user', JSON.stringify(response.data.user));
       navigate('/listings');
     } catch (err) {
