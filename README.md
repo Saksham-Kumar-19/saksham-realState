@@ -13,6 +13,7 @@ This is a full-stack real estate application built with **MongoDB**, **Express.j
 ## **Screenshot**
 ![Alt Text](login.png)
 ![Alt Text](register.png)
+![Alt Text](backend-error.png)
 
 
 ## 🚀 **Tech Stack**
@@ -143,15 +144,15 @@ The frontend server will run at `http://localhost:3000`.
 
 - **GET /api/properties** → Get all properties
 - **POST /api/properties** → Create a property
-- **PUT /api/properties/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*****:id** → Update a property
-- **DELETE /api/properties/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*****:id** → Delete a property
+- **PUT /api/properties/:id** → Update a property
+- **DELETE /api/properties/:id** → Delete a property
 
 ### **User Routes:**
 
 - **GET /api/users** → Get all users
-- **GET /api/users/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*****:id** → Get user by ID
-- **PUT /api/users/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*****:id** → Update user by ID
-- **DELETE /api/users/\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*****:id** → Delete user by ID
+- **GET /api/users/:id** → Get user by ID
+- **PUT /api/users/:id** → Update user by ID
+- **DELETE /api/users/:id** → Delete user by ID
 
 ---
 
